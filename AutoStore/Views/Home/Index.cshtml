@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+    <body class="homeBackground">
+        <div class="home">
+            <div class="homeCenter">
+                <h1>WELCOME TO AUTOSTORE</h1>
+                <h5>Your one stop shop for all things automotive</h5>
+                <br />
+                <br />
+                @Html.RouteLink("Browse Products", "ProductsIndex", new { area = "" }, new { @class = "btn btn-primary" })
+            </div>
+        </div>
+    </body>
